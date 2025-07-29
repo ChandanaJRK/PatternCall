@@ -14,4 +14,5 @@ class patternCallManager {
 	public:
 	vector<Data> getDataFromFile(const string& filename);
 	void writeDataToFile(const string& filename, const vector<Data>& data);
+	vector<Data> addDummyData(const Data& info, const vector<Data>& data);
 };

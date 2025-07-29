@@ -42,3 +42,9 @@ void patternCallManager::writeDataToFile(const string& filename, const vector<Da
 		outputfile << d.id << "," << d.name << "," << d.filepath << "," << (d.flag ? "true" : "false") << "\n";
 	}
 }
+
+vector<Data> patternCallManager::addDummyData(const Data& info, const vector<Data>& data){
+	vector<Data> newData = data;
+	newData.push_back(info);
+	return newData;
+}
