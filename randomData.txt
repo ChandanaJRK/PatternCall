@@ -10,12 +10,12 @@
 102,Kappa,/media/file10,false
 11,Lambda,/srv/file11,true
 102,/root/file12,false
-131,Nu,/data/file13,true
+131,sonu,/data/file13,true
 14,Xi,/backup/file14,false
 15,Omicron,/downloads/file15,true
 106,Pi,/documents/file16,false
 117,Rho,/desktop/file17,true
 18,Sigma,/public/file18,false
-191,Tau,/private/file19,true
+191,sonu,/private/file19,true
 201,Upsilon,/archive/file20,false
 21,Phi,true
