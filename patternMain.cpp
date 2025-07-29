@@ -1,5 +1,5 @@
 #include <iostream>
-#include "patternManager.h"
+#include "patternCallManager.h"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main()
 	string outfile = "writtenData.txt";
 	
 	vector<Data> getData = getDataFromFile(infile);
-	writeDataToFile(getData);
+	writeDataToFile(outfile, getData);
 	
 	cout << "Copied data from " << infile << "to " << outfile << endl;
 	
