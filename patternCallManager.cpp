@@ -1,10 +1,11 @@
 #include "patternCallManager.h"
+#include <iostream>
 #include <fstream>
 #include <sstream>
 
 using namespace std;
 
-vector<Data> getDataFromFile(const string& filename){
+vector<Data> patternCallManager::getDataFromFile(const string& filename){
 	ifstream inputfile(filename);
 	string line;
 	vector<Data> storedData;
@@ -27,14 +28,15 @@ vector<Data> getDataFromFile(const string& filename){
 			d.flag = (flagstr == "true");
 	
 			storedData.push_back(d);
-		} catch(...) {
+		} catch(const exception& e) {
+			cout << "Exception occured " << e.what() << endl;
 			continue;
 		}
 	}
 	return storedData;
 }
 
-void writeDataToFile(const string& filename, const vector<Data>& data){
+void patternCallManager::writeDataToFile(const string& filename, const vector<Data>& data){
 	ofstream outputfile(filename);
 	for(const auto& d : data){
 		outputfile << d.id << "," << d.name << "," << d.filepath << "," << (d.flag ? "true" : "false") << "\n";

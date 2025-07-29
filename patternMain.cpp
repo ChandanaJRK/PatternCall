@@ -5,13 +5,15 @@ using namespace std;
 
 int main()
 {
-	string infile = "randomData.txt";
-	string outfile = "writtenData.txt";
+	patternCallManager manager;
+
+	const string infile = "randomData.txt";
+	const string outfile = "writtenData.txt";
 	
-	vector<Data> getData = getDataFromFile(infile);
-	writeDataToFile(outfile, getData);
+	vector<Data> getData = manager.getDataFromFile(infile);
+	manager.writeDataToFile(outfile, getData);
 	
-	cout << "Copied data from " << infile << "to " << outfile << endl;
+	cout << "Filtered and Copied all data from " << infile << " to " << outfile << endl;
 	
 	return 0;
 }
