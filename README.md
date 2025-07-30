@@ -14,6 +14,7 @@ A C++ application that reads data from a file, stores it in a container, and all
 - C++
 - Makefile for easy build and compilation
 - GitHub Codespaces compatible for cloud-based development and building
+- Google Test framework for unit testing
 
 ## Installation
 
@@ -30,6 +31,10 @@ A C++ application that reads data from a file, stores it in a container, and all
 3. Run the compiled program:
 
    ./main
+
+4. To build and run Unit test:
+
+   make test
 
 ## Build & Development Environment
 
