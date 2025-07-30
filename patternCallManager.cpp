@@ -103,15 +103,9 @@ map<int, Data> patternCallManager::addDummyData(const Data& info, const map<int,
  */
 list<Data> patternCallManager::getById(const map<int, Data>& storedData, const int& specificId){
 	list<Data> result;
-/*	auto it = storedData.find(id);
+	auto it = storedData.find(id);
 	if(it != storedData.end())
 		result.push_back(it->second);
-	return result;*/
-	for(const auto& [id, data] : storedData){
-		if((data.id) == specificId){
-			result.push_back(data);
-		}
-	}
 	return result;
 }
 
