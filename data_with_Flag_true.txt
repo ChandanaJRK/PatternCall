@@ -1,0 +1,9 @@
+1,chandana,home/chandana/text,true
+3,Gamma,/var/logs/log3,true
+5,Epsilon,/etc/config/file5,true
+11,Lambda,/srv/file11,true
+15,Omicron,/downloads/file15,true
+91,Iota,/mnt/drive/file9,true
+117,Rho,/desktop/file17,true
+131,sonu,/data/file13,true
+191,sonu,/private/file19,true

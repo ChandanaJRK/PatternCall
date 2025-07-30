@@ -1,0 +1,8 @@
+14,Xi,/backup/file14,false
+18,Sigma,/public/file18,false
+22,sonu,m/h/txt,false
+42,Delta,/home/user/file4,false
+68,Zeta,/opt/data/file6,false
+102,Kappa,/media/file10,false
+106,Pi,/documents/file16,false
+201,Upsilon,/archive/file20,false
