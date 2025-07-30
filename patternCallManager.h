@@ -20,6 +20,14 @@ struct Data {
 	string name;
 	string filepath;
 	bool flag;
+
+	//Added for unit test purpose. 
+	bool operator==(const Data& other) const {
+    return id == other.id &&
+            name == other.name &&
+            filepath == other.filepath &&
+            flag == other.flag;
+    }
 };
 
 class patternCallManager {
