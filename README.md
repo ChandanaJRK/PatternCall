@@ -1,12 +1,13 @@
 # patternCall
 
-A C++ application that reads data from a file, stores it in a container, and allows retrieval of data based on specified criteria such as ID, name, path, and flag status.
+A C++ application that reads data from a file, stores it in a container, allows retrieval of data based on specified criteria such as ID, name, path, flag status and writes back the data to respective files.
 
 ## Features
 
 - Reads and parses data from an input file
 - Stores data efficiently in a container
 - Retrieve data by filtering with ID, name, path, or whether a flag is set
+- Write the data to respective files after retrieving the data
 - Simple and fast data lookup
 
 ## Technologies
